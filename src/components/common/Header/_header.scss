@@ -1,0 +1,21 @@
+header {
+  position: relative;
+  height: 80px;
+  background: burlywood;
+  width: 100%;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo-wrapper {
+    display: flex;
+    align-items: center;
+
+    #logo {
+      margin-right: 10px;
+    }
+  }
+}

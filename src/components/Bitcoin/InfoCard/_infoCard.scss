@@ -1,0 +1,15 @@
+.info-card {
+  grid-column: title-start / span 2;
+  grid-row: info-start;
+  border-radius: 3px;
+  border: 1px solid #dedede;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 80px;
+  padding: 0 25px;
+
+  .currency-rate {
+    align-self: flex-end;
+  }
+}

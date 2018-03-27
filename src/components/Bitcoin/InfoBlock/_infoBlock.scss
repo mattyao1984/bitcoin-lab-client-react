@@ -1,0 +1,27 @@
+.info-block {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns:
+    [title-start] 2fr
+    [datetime-start] 1fr;
+  grid-template-rows:
+    [title-start] 1fr
+    [info-start] 1fr;
+
+  h2 {
+    grid-column: title-start;
+    grid-row: title-start;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  h5 {
+    grid-column: datetime-start;
+    grid-row: title-start;
+    color: dimgrey;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
